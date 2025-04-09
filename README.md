@@ -16,6 +16,12 @@ This project implements a movie recommendation system using the MovieLens datase
 
 ## Setup and Running
 
+2. **Download Models**:
+   These files were too big to put in the repo directly so you need to download them from gogle drive then save then in a folder together - 'models' - like i have!
+   ```
+   https://drive.google.com/drive/folders/1FI-9q4vY10FzzwRcWKqNINUWckav44g5?usp=share_link
+   ```
+
 1. **Install dependencies**:
    ```
    pip install -r requirements.txt
