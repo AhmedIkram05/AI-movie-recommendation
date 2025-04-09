@@ -16,33 +16,33 @@ This project implements a movie recommendation system using the MovieLens datase
 
 ## Setup and Running
 
-2. **Download Models**:
+1. **Download Models**:
    These files were too big to put in the repo directly so you need to download them from gogle drive then save then in a folder together - 'models' - like i have!
    ```
    https://drive.google.com/drive/folders/1FI-9q4vY10FzzwRcWKqNINUWckav44g5?usp=share_link
    ```
 
-1. **Install dependencies**:
+2. **Install dependencies**:
    ```
    pip install -r requirements.txt
    ```
 
-2. **Download the dataset**:
+3. **Download the dataset**:
    ```
    python download_data.py
    ```
 
-3. **Run the recommendation system**:
+4. **Run the recommendation system**:
    ```
    python main.py
    ```
 
-4. **Save trained models for web interface**:
+5. **Save trained models for web interface**:
    ```
    python save_models.py
    ```
 
-5. **Run the web interface**:
+6. **Run the web interface**:
    ```
    python web_interface.py
    ```
