@@ -29,22 +29,22 @@ This project implements a movie recommendation system using the MovieLens datase
 
 3. **Download the dataset**:
    ```
-   python download_data.py
+   python3 download_data.py
    ```
 
 4. **Run the recommendation system**:
    ```
-   python main.py
+   python3 main.py
    ```
 
 5. **Save trained models for web interface**:
    ```
-   python save_models.py
+   python3 save_models.py
    ```
 
 6. **Run the web interface**:
    ```
-   python web_interface.py
+   python3 web_interface.py
    ```
    Then open http://localhost:5000 in your browser
 
