@@ -18,39 +18,47 @@ This project implements a movie recommendation system using the MovieLens datase
 
 1. **Download Models**:
    These files were too big to put in the repo directly so you need to download them from gogle drive then save then in a folder together - 'models' - like i have!
+
    ```
    https://drive.google.com/drive/folders/1FI-9q4vY10FzzwRcWKqNINUWckav44g5?usp=share_link
    ```
 
 2. **Install dependencies**:
+
    ```
    pip install -r requirements.txt
    ```
 
 3. **Download the dataset**:
+
    ```
    python3 download_data.py
    ```
 
 4. **Run the recommendation system**:
+
    ```
    python3 main.py
    ```
 
 5. **Save trained models for web interface**:
+
    ```
    python3 save_models.py
    ```
 
 6. **Run the web interface**:
+
    ```
    python3 web_interface.py
    ```
-   Then open http://localhost:5000 in your browser
+
+   Then open <http://localhost:5000> in your browser
 
 ## Performance
 
 The current implementation achieves:
+
 - Collaborative Filtering: ~78% hit rate, ~0.22 precision@10
 - Hybrid Model: ~74% hit rate, ~0.23 precision@10
 
@@ -63,6 +71,7 @@ The current implementation achieves:
 ## Evaluation Metrics
 
 The system uses standard recommendation metrics:
+
 - Precision@k: Proportion of recommended items that are relevant
 - Recall@k: Proportion of relevant items that are recommended
 
