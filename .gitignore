@@ -5,3 +5,6 @@
 .env
 .DS_Store
 /.github
+/utils/__pycache__
+/recsys/__pycache__
+/recsys/services/__pycache__
